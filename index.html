@@ -115,27 +115,27 @@
 
 				<a href="#" class="btn" onclick="openTypeform()">your dream starts here</a>
 
-					<div data-tf-widget="n78dhhGF" data-tf-opacity="100" data-tf-iframe-props="title=Start your project with us" data-tf-transitive-search-params data-tf-medium="snippet" style="display:none;"></div>
-					<script src="//embed.typeform.com/next/embed.js"></script>
+					<div id="typeform-widget"></div>
 
-					<script>
-						function openTypeform() {
- 						const widget = typeformEmbed.makePopup(
-   						"https://admin.typeform.com/to/n78dhhGF",
-    					{
+						<script src="https://embed.typeform.com/embed.js"></script>
 
-     					hideFooter: true,
-      					hideHeaders: true,
-     					opacity: 100,
-    					buttonText: "Commencer",
-    					onSubmit: function () {
-    					console.log("Formulaire soumis avec succès.");
-      					},
-   						}
-  						);
-						widget.open();
-						}
-					</script>
+						<script>
+							  function openTypeform() {
+							    const popup = typeformEmbed.makePopup(
+							      'https://admin.typeform.com/to/n78dhhGF',
+							      {
+								hideFooter: true,
+								hideHeaders: true,
+								opacity: 100,
+								buttonText: 'Commencer',
+								onSubmit: function () {
+								  console.log('Formulaire soumis avec succès.');
+								},
+							      }
+							    );
+							    popup.open();
+							  }
+						</script>
 
 			</center>
 
