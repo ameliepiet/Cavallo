@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Kulim+Park:wght@600&display=swap");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body {
+	font-family: Kulim Park;
+	font-size: 30px;
+	background-color: #000000;
+	color: white;
+	}
+
+h1, h2, h3{
+	font-family:Kulim Park ;
+	font-weight: bold;
+}
+
+#history{
+	font-size: 23px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	color: #c82a1d ;
+}
+
+hr{
+	width: 1300px;
+}
+
+ul{
+	font-size: 18px;
+	display: flex;
+}
+
+li{
+	margin: 0 20px;
+}
+
+#list-inline {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+
+

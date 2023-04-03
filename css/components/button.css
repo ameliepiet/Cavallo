@@ -1,0 +1,16 @@
+.btn {
+	font-size: 15px;
+	background-color: #1e1d1a;
+	padding: 15px 20px;
+	padding-left: 20px;
+	color: white;
+	font-weight: bold;
+	font-family: Kulim Park, sans-serif ;
+	border-radius: 6px;
+	margin: 50px;
+}
+
+
+a:hover{
+	background-color:#c82a1d
+}

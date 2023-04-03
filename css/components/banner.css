@@ -1,0 +1,56 @@
+.banner {
+  position: relative;
+  height: 575px;
+  overflow: hidden;
+}
+
+.banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.text-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-left: 50px;
+}
+
+.texts {
+  text-align: center;
+}
+
+
+.text-banner h1{
+	font-size: 50px;
+	color: #c82a1d;
+	font-weight:bold ;
+}
+
+.text-banner h2{
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;	
+}
+
+.banner-up {
+height: 50px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
